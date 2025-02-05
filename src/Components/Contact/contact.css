@@ -1,56 +1,62 @@
 .contact-section {
-    background: #111;
-    color: white;
-    padding: 2em;
-    text-align: center;
-    margin-top: 10em;
-  }
-  
-  .title {
-    font-size: 42px;
-    font-weight: bold;
-    margin: 20px;
-    color: rgb(235, 219, 138); 
-   
-  }
-  
-  .title span {
-    color: #ff00ff;
-  }
-  
-  
-  .contact-container {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: auto;
-    gap: 20em;
-  }
-  
-  .contact-info {
-    flex: 1;
-    text-align: left;
-  }
-  
-  .contact-form {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  
-  .contact-form input,
-  .contact-form textarea {
-    padding: 10px;
-    border-radius: 5px;
-    border: none;
-  }
-  
-  .submit-btn {
-    background: linear-gradient(to right, #ff00ff, #ff8c00);
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-  }
-  
+  padding: 4rem 2rem;
+  background: #111;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ffffff, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 1rem;
+}
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-info p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.contact-info p:first-child {
+  font-weight: bold;
+}
+
+.contact-info p span {
+  font-weight: bold;
+}
+
+.contact-info {
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  text-align: center;
+}
+
+.contact-info p {
+  color: white;
+}
+
+.contact-container a {
+  text-decoration: none;
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 100.2%);
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 30px;
+  transition: background-color 0.3s ease;
+}
