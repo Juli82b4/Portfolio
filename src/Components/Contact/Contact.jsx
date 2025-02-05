@@ -4,7 +4,9 @@ import "./contact.css";
 const Contact = () => {
   return (
     <section className="contact-section">
-      <h2 className="title">Get in touch</h2>
+      <div className="title">
+        <h1>Get in touch</h1>
+      </div>
       <div className="contact-container">
         <div className="contact-info">
           <br />
@@ -18,10 +20,16 @@ const Contact = () => {
           <p>📞 +91 61 42 38</p>
           <p>📍 Viborg,Denmark</p>
         </div>
-        <a href="mailto:Juliya.dian@gmail.com">
-          {" "}
-          <h3>📧 Let's talk</h3>
-        </a>
+        <div className="subscribe">
+    <a
+      href="https://www.linkedin.com/in/juliya-sriraj-533067322/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="linkedin-link"
+    >
+      Connect with me on LinkedIn
+    </a>
+  </div>
       </div>
     </section>
   );
