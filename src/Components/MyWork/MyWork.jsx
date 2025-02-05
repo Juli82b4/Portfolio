@@ -10,10 +10,12 @@ const MyWork = () => {
       </div>
       <div className="mywork-container">
         {mywork_data.map((work) => (
-          <img key={work.w_no} src={work.w_img} alt={work.w_name} />
+          <div key={work.w_no} className="mywork-card">
+            <img src={work.w_img} alt={work.w_name} />
+            <p>{work.w_description}</p>
+          </div>
         ))}
       </div>
-
     </div>
   );
 };

@@ -25,3 +25,6 @@
  transform: scale(1.05);
 }
 
+.navbar img {
+  width: 10em;
+}
