@@ -13,6 +13,9 @@ const MyWork = () => {
           <div key={work.w_no} className="mywork-card">
             <img src={work.w_img} alt={work.w_name} />
             <p>{work.w_description}</p>
+            <a href={work.w_link} target="_blank" rel="noopener noreferrer">
+              View Project
+            </a>
           </div>
         ))}
       </div>
