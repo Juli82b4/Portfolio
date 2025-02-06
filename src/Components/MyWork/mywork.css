@@ -32,10 +32,26 @@
   background: #111;
   padding: 20px;
   border-radius: 10px;
- 
+
   text-align: center;
   transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
   border: 3px solid rgba(218, 217, 214, 0.5);
+}
+
+.mywork-btn {
+  text-decoration: none;
+  background-color: #000000;
+  padding: 15px 10px;
+  color: rgb(232, 232, 228);
+  border-radius: 15px;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mywork-btn:hover {
+  border: 2px solid rgba(186, 174, 139, 0.5);
 }
 
 .mywork-card:hover {
