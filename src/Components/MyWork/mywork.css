@@ -14,7 +14,6 @@
 .mywork-title h1 {
   font-size: 60px;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 2px;
   background: linear-gradient(90deg, #ffffff, #ffd700);
   -webkit-background-clip: text;

@@ -8,8 +8,18 @@ const Hero = () => {
       <h1><span>Im Juliya Christendian Sriraj,</span>Frontend developer based in Denmark</h1>
       <p>I am frontned developer from viborg currently going to finish my education</p>
       <div className="hero-action">
-      <div className="hero-connect">Connect with me</div>
-      <div className="hero-resume">Resume</div>
+      <div className="hero-connect"><a href="mailto:Juliya.dian@gmail.com">Connect with me</a></div>
+      <div className="hero-resume">
+  <a
+    href="/Portfolio/assets/juliya-cv-2025.pdf"
+    download="juliya-cv-2025.pdf"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Download Resume
+  </a>
+</div>
+
       </div>
     </div>
   );

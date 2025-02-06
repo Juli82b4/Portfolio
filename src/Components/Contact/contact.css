@@ -7,8 +7,7 @@
 }
 
 .title {
-  font-size: 2.5rem;
-  font-weight: bold;
+  font-size: 40px;
   background: linear-gradient(180deg, #ffffff, #ffd700);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -53,11 +52,15 @@
 
 .contact-container a {
   text-decoration: none;
-  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 100.2%);
   color: white;
-  padding: 1rem 1rem;
-  font-size: 1rem;
-  font-weight: bold;
-  border-radius: 30px;
-  
+  font-size: 24px;
+  font-weight: 500;
+  padding: 25px 40px;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  cursor: pointer;
+}
+
+.contact-container a:hover {
+  border: 2px solid #acd69f;
 }

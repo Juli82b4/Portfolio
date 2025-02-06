@@ -48,6 +48,11 @@
   background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
   cursor: pointer;
 }
+
+.hero-connect a {
+  color: white;
+  text-decoration: none;
+}
 .hero-resume {
   padding: 25px 75px;
   border-radius: 50px;
@@ -61,4 +66,10 @@
 
 .hero-resume:hover {
   border: 2px solid #b415ff;
+}
+
+
+.hero-resume a {
+  color: #b415ff;
+  text-decoration: none;
 }

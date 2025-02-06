@@ -27,7 +27,7 @@ const Contact = () => {
       rel="noopener noreferrer"
       className="linkedin-link"
     >
-      Connect with me on LinkedIn
+      Connect on LinkedIn
     </a>
   </div>
       </div>

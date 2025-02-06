@@ -12,7 +12,7 @@ const NavBar = () => {
         <li><a href="#mywork">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div className="nav-connect">Connect with me</div>
+      <div className="nav-connect"><a href="mailto:Juliya.dian@gmail.com">Connect with me</a></div>
     </div>
   );
 };
