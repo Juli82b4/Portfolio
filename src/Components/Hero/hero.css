@@ -6,9 +6,11 @@
 }
 
 .hero img {
-  margin-top: 10px;
-  border-radius: 20em;
-  height: 200px;
+  margin-top: 5em;
+  border-radius: 50%;
+  height: 250px;
+  object-fit: contain;
+  align-self: center;
 }
 
 .hero h1 {
@@ -67,7 +69,6 @@
 .hero-resume:hover {
   border: 2px solid #b415ff;
 }
-
 
 .hero-resume a {
   color: #b415ff;
