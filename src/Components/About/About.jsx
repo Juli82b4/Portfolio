@@ -19,6 +19,7 @@ const About = () => {
             <p>
               As a student at MediaCollege Denmark, I am deeply passionate about
               frontend design and creating visually engaging user experiences.
+              
             </p>
 
             <p>
