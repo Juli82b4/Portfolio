@@ -5,14 +5,24 @@ import logo from "../../assets/logo.png";
 const NavBar = () => {
   return (
     <div className="navbar">
-      <img src={logo} alt="logo" />
+      <h3>Juliya</h3>
       <ul className="nav-menu">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#mywork">Projects</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#mywork">Projects</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
       </ul>
-      <div className="nav-connect"><a href="mailto:Juliya.dian@gmail.com">Connect with me</a></div>
+      <div className="nav-connect">
+        <a href="mailto:Juliya.dian@gmail.com">Connect with me</a>
+      </div>
     </div>
   );
 };

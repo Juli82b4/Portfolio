@@ -5,19 +5,25 @@
   padding: 1rem 2rem;
 }
 
+.navbar h3{
+  color: rgba(255, 255, 255, 0.436);
+  font-size: 20px;
+}
+
 .nav-menu {
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 60px;
+  gap: 2em;
   font-size: 20px;
+  justify-content: center;
 }
 
 .nav-connect{
-  padding: 20px 40px;
+  padding: 10px 10px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 100.2%);
-  font-size: 20px;
+  background: linear-gradient(267deg, #d6a16f93 0.26%, #b076c068 80.2%);
+  font-size: 15px;
   cursor: pointer;
 }
 
