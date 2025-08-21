@@ -43,6 +43,7 @@
   flex-direction: column;
   gap: 20px;
   text-align: left;
+
 }
 
 .about-skills {
@@ -102,4 +103,7 @@
 .about-achievement:hover {
   transform: scale(1.05);
   transition: 0.5s;
+}
+.about-para p{
+  font-size: 23px ;
 }

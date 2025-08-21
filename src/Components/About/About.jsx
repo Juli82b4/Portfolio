@@ -17,9 +17,21 @@ const About = () => {
         <div className="about-right">
           <div className="about-para">
             <p>
-              As a student at MediaCollege Denmark, I am deeply passionate about
-              frontend design and creating visually engaging user experiences.
-              
+              I am a frontend developer based in Aarhus with a strong foundation
+              in HTML, CSS, JavaScript, and React. Having recently completed my
+              education, I am eager to apply my skills in real-world projects
+              and continue growing as a developer. <br/><br/>
+              In addition to coding, I have
+              basic experience in UI/UX design, having designed websites and
+              interfaces using Adobe XD, Illustrator, and Photoshop. This allows
+              me to bridge the gap between design and development, ensuring both
+              functionality and great user experience. <br/><br/>
+              I am a highly motivated
+              and curious individual, always eager to learn new technologies,
+              improve my craft, and explore creative solutions in both coding
+              and design. My goal is to contribute to innovative projects while
+              continuously expanding my knowledge in frontend development and
+              digital design.<br/><br/>
             </p>
 
             <p>

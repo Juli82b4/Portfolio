@@ -18,17 +18,19 @@ const Contact = () => {
           <br />
           <p>📧 Juliya.dian@gmail.com</p>
           <p>📞 +91 61 42 38</p>
-          <p>📍 Viborg,Denmark</p>
+          <p>📍 Aarhus,Denmark</p>
         </div>
         <div className="subscribe">
-    <a
-      href="https://www.linkedin.com/in/juliya-sriraj-533067322/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="linkedin-link"
-    >
-      Connect on LinkedIn
-    </a>
+   <a
+  href="https://www.linkedin.com/in/juliya-s-533067322/"
+  
+  target="_blank"
+  rel="noopener noreferrer"
+  className="linkedin-link"
+>
+  Visit my LinkedIn
+</a>
+
   </div>
       </div>
     </section>

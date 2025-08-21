@@ -20,8 +20,14 @@ const NavBar = () => {
           <a href="#contact">Contact</a>
         </li>
       </ul>
-      <div className="nav-connect">
-        <a href="mailto:Juliya.dian@gmail.com">Connect with me</a>
+      <div className="hero-connect">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=Juliya.dian@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Connect with me
+        </a>
       </div>
     </div>
   );
