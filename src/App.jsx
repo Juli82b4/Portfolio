@@ -5,6 +5,7 @@ import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import MyWork from "./Components/MyWork/MyWork";
 import NavBar from "./Components/NavBar/NavBar";
+import ImagesWork from "./Components/MyImagesWork/ImagesWork";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <NavBar />
       <Hero />
       <About />
+      <ImagesWork />
       <MyWork />
       <Contact />
       <Footer />
