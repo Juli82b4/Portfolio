@@ -1,7 +1,7 @@
 import React from "react";
 import "./hero.css";
 import profileimg from "../../assets/RoundPic.jpg";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/Juliya-CV.pdf";
 
 const Hero = () => {
   return (
@@ -33,7 +33,7 @@ const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Download Resume
+            Download Danish Version Resume
           </a>
         </div>
       </div>
