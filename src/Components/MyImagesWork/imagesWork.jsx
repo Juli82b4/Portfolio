@@ -1,17 +1,30 @@
 import React from "react";
 import mywork_data from "../../assets/imageswork_data";
+import "./myimageswork.css";
+import project3_img from "../../assets/project_2.png";
+import project4_img from "../../assets/Graphic.png";
 
 const ImagesWork = () => {
   return (
-    <div className="mywork" id="mywork">
-      <div className="mywork-title">
-        <h1>My Latest Work</h1>
+    <div className="myimages-container">
+      <div className="myimages-heading">
+        ADOBE XD - ADOBE ILLUSTRATOR - PHOTOSHOP
       </div>
-      <div className="mywork-container">
-        {mywork_data.map((work) => (
-          <div key={work.w_no} className="mywork-card">
+
+      {/* Second row */}
+      <div className="myimages-row2">
+        <p className="myimages-p">Designed by Adobe XD</p>
+        <img src={project3_img} alt="pic1" />
+<p className="myimages-p"> Designed by Photoshop & Adobe Illustrator</p>
+        <img src={project4_img} alt="pic2" />
+        
+      </div>
+      {/* First row */}
+      <div className="myimages-row1">
+        {mywork_data.slice(0, 2).map((work) => (
+          <div key={work.w_no} className="myimages-card">
             <img src={work.w_img} alt={work.w_name} />
-            <p>{work.w_description}</p>
+            <p className="myimages-p">{work.w_description}</p>
           </div>
         ))}
       </div>

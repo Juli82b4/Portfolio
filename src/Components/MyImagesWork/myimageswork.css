@@ -1,0 +1,58 @@
+/* Overall section */
+
+
+/* Section title */
+.myimages-heading {
+  font-size: 3.5rem;
+  margin-bottom: 6rem;
+  font-weight: 700;
+  background: linear-gradient(90deg, #ffffff, #ffd700);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Grid container for cards */
+.myimages-row1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/* Individual image card */
+.myimagesrow1 {
+  border-radius: 15px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  max-width: 100%;
+  cursor: pointer;
+}
+
+.myimages-card img {
+  width: 80%;
+  height: 80%;
+  gap: 10px;
+}
+.myimages-card img:hover {
+  transition: 0.3;
+}
+
+.myimages-p {
+  font-size: 30px;
+  margin: 4rem 6rem;
+  
+}
+
+.myimages-container {
+  padding: 4em 4em;
+}
+
+.myimages-row2 img{
+  width: 80%;
+  gap: 5rem;
+}
+
+.myimages-row2 {
+  gap: 5rem;
+}
+.myimages-row1{
+padding: 5rem;
+}

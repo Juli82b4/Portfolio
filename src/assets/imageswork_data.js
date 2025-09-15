@@ -8,7 +8,7 @@ const myimages_data = [
     w_no: 1,
     w_img: project1_img,
     w_name: "Web design",
-    w_description: "It was designed using Adobe Illustrator",
+    w_description: "Designed using Adobe Illustrator",
     w_link: "https://github.com/Juli82b4/Typescript.git",
   },
 
@@ -16,7 +16,7 @@ const myimages_data = [
     w_no: 2,
     w_img: project2_img,
     w_name: "Web design",
-    w_description: "This Global Logo was made by using Adobe Illustrator",
+    w_description: "Designed Adobe Illustrator",
     w_link: "https://github.com/Juli82b4/Rollespilsklubben-.git",
   },
 
@@ -31,7 +31,7 @@ const myimages_data = [
     w_no: 4,
     w_img: project4_img,
     w_name: "Web design",
-    w_description: "Its a project regarding Toys website. I did the design with my own creativity - On Progress to be Linked.",
+    w_description: "I have used Photoshop and Adobe Illustrator",
   },
 ];
 
