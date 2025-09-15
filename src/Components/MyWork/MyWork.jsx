@@ -14,7 +14,7 @@ const MyWork = () => {
             <img src={work.w_img} alt={work.w_name} />
             <p>{work.w_description}</p>
             <a href={work.w_link} target="_blank" rel="noopener noreferrer" className="mywork-btn">
-              View Project- On Progress
+              View Project
             </a>
           </div>
         ))}
