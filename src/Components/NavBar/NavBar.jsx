@@ -1,7 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import logo from "../../assets/logo.png";
-import CV from "../../assets/CV.pdf";
+import CV from "../../assets/Resume.pdf";
 
 const NavBar = () => {
   return (
@@ -28,7 +28,7 @@ const NavBar = () => {
                  target="_blank"
                  rel="noopener noreferrer"
                >
-                 Download Resume
+                 Download Resume English Version
                </a>
              </div>
     </div>
