@@ -28,7 +28,7 @@ const NavBar = () => {
                  target="_blank"
                  rel="noopener noreferrer"
                >
-                 Download Resume English Version
+                 Download English Version Resume
                </a>
              </div>
     </div>
