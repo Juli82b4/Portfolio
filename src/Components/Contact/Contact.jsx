@@ -12,8 +12,7 @@ const Contact = () => {
           <br />
           <p>
             I'm currently available to take on new projects, so feel free to
-            send me a message about anything that you want me to work on. You
-            can contact me anytime.
+            send me a message about anything that you want me to work on. 
           </p>
           <br />
           <p>📧 Juliya.dian@gmail.com</p>

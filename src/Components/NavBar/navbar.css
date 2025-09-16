@@ -14,9 +14,11 @@
   display: flex;
   align-items: center;
   list-style: none;
-  gap: 2em;
-  font-size: 20px;
+  gap: 4em;
+  font-size: 25px;
   justify-content: center;
+  text-align: center;
+ 
 }
 
 .nav-connect{
@@ -34,6 +36,7 @@
 .nav-connect a{ 
   text-decoration: none;
   color: white;
+  text-align: center;
 }
 
 .nav-connect:hover{
@@ -47,4 +50,8 @@
 .nav-menu a {
 text-decoration: none;
 color: white;
+}
+
+.hero-resume{
+padding: 20px 20px;
 }

@@ -16,7 +16,7 @@ const myimages_data = [
     w_no: 2,
     w_img: project2_img,
     w_name: "Web design",
-    w_description: "Designed Adobe Illustrator",
+    w_description: "Designed using Adobe Illustrator",
     w_link: "https://github.com/Juli82b4/Rollespilsklubben-.git",
   },
 

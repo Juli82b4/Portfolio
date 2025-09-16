@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   gap: 3em;
-  margin: 80px 170px;
+  padding: 8rem;
   background: #111;
- 
+ margin-top: 5rem;
 }
 
 .about img {

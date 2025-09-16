@@ -1,9 +1,8 @@
 .contact-section {
-  padding: 5rem 2rem;
   background: #111;
   text-align: center;
   border-radius: 10px;
-  margin: 80px 170px;
+  padding: 5rem;
 }
 
 .title {

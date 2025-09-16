@@ -2,7 +2,7 @@ import React from "react";
 import mywork_data from "../../assets/imageswork_data";
 import "./myimageswork.css";
 import project3_img from "../../assets/project_2.png";
-import project4_img from "../../assets/Graphic.png";
+import project4_img from "../../assets/new-pathway.jpg";
 
 const ImagesWork = () => {
   return (
@@ -15,7 +15,7 @@ const ImagesWork = () => {
       <div className="myimages-row2">
         <p className="myimages-p">Designed by Adobe XD</p>
         <img src={project3_img} alt="pic1" />
-<p className="myimages-p"> Designed by Photoshop & Adobe Illustrator</p>
+<p className="myimages-p"> Designed Combining Pictures using Adobe Illustrator & Photoshop</p>
         <img src={project4_img} alt="pic2" />
         
       </div>
