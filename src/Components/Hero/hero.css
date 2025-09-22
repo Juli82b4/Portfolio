@@ -1,16 +1,52 @@
+.hero-bgg {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,1)),
+              url(../../assets/bg.jpg) center/cover no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-bgg::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url(../../assets/alphabet.jpg) center/cover no-repeat;
+  opacity: 0.05; 
+  animation: overlayMove 5s linear infinite;
+  z-index: 2; 
+  pointer-events: none; 
+}
+
+
+@keyframes overlayMove {
+  0%   { background-position: 10% 0%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 0%; }
+}
+
+/* Hero content stays above original bg, below overlay */
 .hero {
+  position: relative;
+  z-index: 1;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
   gap: 35px;
+  color: white;
 }
 
 .hero img {
-  margin-top: 5em;
-  border-radius: 50%;
-  height: 200px;
-  object-fit: contain;
-  align-self: center;
+  margin-top: 5rem;
+  width: 200px;
+  border-radius: 30%;
+  object-fit: cover;
+  border: 10px rgb(249, 249, 249) solid;
+ 
 }
 
 .hero h1 {
@@ -44,26 +80,21 @@
   margin-bottom: 50px;
 }
 
-.hero-connect {
-  padding: 25px 45px;
-  border-radius: 50px;
-  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
-  cursor: pointer;
-}
-
-.hero-connect a {
-  color: white;
-  text-decoration: none;
-}
 .hero-resume {
-  padding: 25px 75px;
+  padding: 19px 45px;
   border-radius: 50px;
   border: 2px solid #fff;
   cursor: pointer;
+  font-size: 20px;
 }
 
-.hero-connect:hover {
-  border: 2px solid white;
+.hero-resume:hover {
+  border: 2px solid #b415ff;
+}
+
+.hero-resume a {
+  color: #b415ff;
+  text-decoration: none;
 }
 
 .hero-resume:hover {

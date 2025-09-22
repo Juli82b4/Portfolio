@@ -1,76 +1,90 @@
 import React from "react";
 import "./about.css";
-import profileimg from "../../assets/profileimg.jpg";
+import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaFigma } from "react-icons/fa";
+import {
+  SiAdobeillustrator,
+  SiAdobexd,
+  SiAdobephotoshop,
+  SiAdobeindesign,
+} from "react-icons/si";
+
+const skills = [
+  { name: "HTML", icon: <FaHtml5 />, level: 100 },
+  { name: "CSS", icon: <FaCss3Alt />, level: 100 },
+  { name: "JavaScript", icon: <FaJs />, level: 80 },
+  { name: "React", icon: <FaReact />, level: 80 },
+  { name: "Adobe XD", icon: <SiAdobexd />, level: 80 },
+  { name: "Illustrator", icon: <SiAdobeillustrator />, level: 75 },
+  { name: "Photoshop", icon: <SiAdobephotoshop />, level: 80 },
+  { name: "InDesign", icon: <SiAdobeindesign />, level: 70 },
+  { name: "Figma", icon: <FaFigma />, level: 50 },
+];
 
 const About = () => {
   return (
-    <div className="about" id="about">
-      <div className="about-title">
-        <h1>About me</h1>
-      </div>
-
-      <div className="about-sections">
+    <section className="about" id="about">
+      <div className="container">
+        {/* LEFT SIDE */}
         <div className="about-left">
-          <img src={profileimg} alt="" />
+          <h2>About Me</h2>
+          <p>
+            <br />
+            <b>👋Hello!</b> <b></b>
+            <br /> <br />
+            My name is Juliya, and I live in Aarhus, Denmark with my family. I
+            recently completed my education as a web developer and am passionate
+            about building user-friendly, responsive websites. I am currently
+            seeking a 4-week internship as well as full-time opportunities where
+            I can contribute, learn, and further improve my skills.
+          </p>
+          <p>
+            I love being creative, and in my free time, I enjoy photography and
+            photo editing. Recently, I have been working with Figma to learn more
+            about UX and UI design a field I am deeply interested in combining
+            both design and coding.
+          </p>{" "}
+          <br />
+          <p>
+            <b>🔎My Guiding Principle</b>
+            <br />I believe that hard work and dedication are the keys to
+            achieving the best results.
+          </p>
+          <p>
+            <b>😁Personality</b>
+            <br />I am positive, friendly, honest, and a great team player. I am
+            ambitious and always strive forhigh-quality results without
+            compromising on standards.
+          </p>
+          <p>
+            <b>💻Professional Approach</b>
+            <br />I enjoy working in a collaborative and pleasant environment,
+            where everyone shares the same goals and strives for success
+            together.
+          </p>
         </div>
 
+        {/* RIGHT SIDE */}
         <div className="about-right">
-          <div className="about-para">
-            <p>
-              I am a frontend developer based in Aarhus with a strong foundation
-              in HTML, CSS, JavaScript, and React. Having recently completed my
-              education, I am eager to apply my skills in real-world projects
-              and continue growing as a developer. <br/><br/>
-              In addition to coding, I have
-              basic experience in UI/UX design, having designed websites and
-              interfaces using Adobe XD, Illustrator, and Photoshop. This allows
-              me to bridge the gap between design and development, ensuring both
-              functionality and great user experience. <br/><br/>
-              I am a highly motivated
-              and curious individual, always eager to learn new technologies,
-              improve my craft, and explore creative solutions in both coding
-              and design. My goal is to contribute to innovative projects while
-              continuously expanding my knowledge in frontend development and
-              digital design.<br/><br/>
-            </p>
-
-            <p>
-              I thrive on turning creative ideas into interactive and responsive
-              web designs, ensuring both aesthetics and functionality.
-            </p>
-          </div>
-
-          <div className="about-skills">
-            <div className="about-skill">
-              <p>HTML & CSS </p>
-              <hr style={{ width: "90%" }} />
-            </div>
-            <div className="about-skill">
-              <p> JavaScript </p>
-              <hr style={{ width: "60%" }} />
-            </div>
-            <div className="about-skill">
-              <p> React </p>
-              <hr style={{ width: "60%" }} />
-            </div>
-          </div>
-
-          <div className="about-achievments">
-            <div className="about-achievement">
-              <h1>1</h1>
-              <p>YEARS OF EXPERINECE</p>
-            </div>
-            <hr />
-            <div className="about-achievement">
-              <h1>4</h1>
-              <p>PROJECTS COMPLETED</p>
-            </div>
-
-            <hr />
+          <h3>Skills & Tools</h3>
+          <div className="skills-list">
+            {skills.map((skill, index) => (
+              <div className="skill" key={index}>
+                <div className="skill-icon">{skill.icon}</div>
+                <div className="skill-info">
+                  <span className="skill-name">{skill.name}</span>
+                  <div className="skill-bar">
+                    <div
+                      className="skill-fill"
+                      style={{ width: `${skill.level}%` }}
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
