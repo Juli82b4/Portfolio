@@ -31,17 +31,17 @@ const About = () => {
             <br />
             <b>👋Hello!</b> <b></b>
             <br /> <br />
-            My name is Juliya, and I live in Aarhus, Denmark with my family. I
+            My name is Juliya and I live in Aarhus, Denmark with my family. I
             recently completed my education as a web developer and am passionate
-            about building user-friendly, responsive websites. I am currently
-            seeking a 4-week internship as well as full-time opportunities where
-            I can contribute, learn, and further improve my skills.
+            about building user-friendly, responsive websites. I am currently looking for a
+            full-time [entry-level position] where I can contribute, learn, and further
+            improve my skills.
           </p>
           <p>
             I love being creative, and in my free time, I enjoy photography and
-            photo editing. Recently, I have been working with Figma to learn more
-            about UX and UI design a field I am deeply interested in combining
-            both design and coding.
+            photo editing. Recently, I have been working with Figma to learn
+            more about UX and UI design a field I am deeply interested in
+            combining both design and coding.
           </p>{" "}
           <br />
           <p>
