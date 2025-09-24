@@ -1,33 +1,53 @@
-import React from "react";
+import { useState } from "react";
 import mywork_data from "../../assets/imageswork_data";
 import "./myimageswork.css";
-import project3_img from "../../assets/project_2.png";
-import project4_img from "../../assets/new-pathway.jpg";
 
 const ImagesWork = () => {
-  return (
-    <div className="myimages-container">
-      <div className="myimages-heading">
-        ADOBE XD - ADOBE ILLUSTRATOR - PHOTOSHOP
-      </div>
+  const [isOpen, setIsOpen] = useState(false);
+  const [currentImage, setCurrentImage] = useState(null);
 
-      {/* Second row */}
-      <div className="myimages-row2">
-        <p className="myimages-p">Designed by Adobe XD</p>
-        <img src={project3_img} alt="pic1" />
-<p className="myimages-p"> Designed Combining Pictures using Adobe Illustrator & Photoshop</p>
-        <img src={project4_img} alt="pic2" />
-        
-      </div>
-      {/* First row */}
-      <div className="myimages-row1">
-        {mywork_data.slice(0, 2).map((work) => (
-          <div key={work.w_no} className="myimages-card">
-            <img src={work.w_img} alt={work.w_name} />
-            <p className="myimages-p">{work.w_description}</p>
+  const openLightbox = (img) => {
+    setCurrentImage(img);
+    setIsOpen(true);
+  };
+
+  const closeLightbox = () => {
+    setIsOpen(false);
+    setCurrentImage(null);
+  };
+
+  return (
+    <div className="portfolio-container">
+      <h2 className="portfolio-heading">Images Designed using Adobe</h2>
+
+      <div className="work-grid">
+        {mywork_data.map((work) => (
+          <div key={work.w_no} className="work-card">
+            <div className="work-img-container" style={{ position: "relative" }}>
+              <img src={work.w_img} alt={work.w_name} />
+              {/* Magnifying glass icon */}
+              <span
+                className="icon-overlay"
+                onClick={() => openLightbox(work.w_img)}
+                style={{ cursor: "pointer" }}
+              >
+                🔍
+              </span>
+            </div>
+            <div className="work-info">
+              <h4 className="work-title">{work.w_name}</h4>
+              <p className="work-description">{work.w_description}</p>
+            </div>
           </div>
         ))}
       </div>
+
+      {/* Lightbox Overlay */}
+      {isOpen && (
+        <div className="lightbox" onClick={closeLightbox}>
+          <img src={currentImage} alt="Full view" className="lightbox-img" />
+        </div>
+      )}
     </div>
   );
 };

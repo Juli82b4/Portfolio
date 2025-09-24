@@ -4,21 +4,22 @@
   align-items: center;
   justify-content: center;
   gap: 50px;
-  padding: 2em 4em;
+  padding: 4em 4em;
   color: #ffffff;
   text-align: center;
   border-radius: 15px;
-  margin-bottom: 10em;
+ 
 }
 
 .mywork-title h1 {
-  font-size: 60px;
+  font-size: 30px;
   font-weight: 700;
   letter-spacing: 2px;
-  background: linear-gradient(90deg, #ffffff, #ffd700);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  padding-bottom: 10px;
+  color: #c3bcbc;
+  margin: 40px;
+  border-bottom: 3px solid #d443a1;
+  text-transform: uppercase;
+
 }
 
 .mywork-container {
@@ -26,6 +27,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2em;
   width: 90%;
+  margin-bottom: 50px;
 }
 
 .mywork-card {

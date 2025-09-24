@@ -14,10 +14,10 @@ const skills = [
   { name: "JavaScript", icon: <FaJs />, level: 80 },
   { name: "React", icon: <FaReact />, level: 80 },
   { name: "Adobe XD", icon: <SiAdobexd />, level: 80 },
-  { name: "Illustrator", icon: <SiAdobeillustrator />, level: 75 },
-  { name: "Photoshop", icon: <SiAdobephotoshop />, level: 80 },
+  { name: "Illustrator", icon: <SiAdobeillustrator />, level: 70 },
+  { name: "Photoshop", icon: <SiAdobephotoshop />, level: 70 },
   { name: "InDesign", icon: <SiAdobeindesign />, level: 70 },
-  { name: "Figma", icon: <FaFigma />, level: 50 },
+  { name: "Figma", icon: <FaFigma />, level: 60 },
 ];
 
 const About = () => {
